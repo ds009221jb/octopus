@@ -16,9 +16,9 @@ import {
 } from "paperback-extensions-common"
 
 //const KOMGA_DOMAIN = 'https://demo.komga.org'
-const KOMGA_DOMAIN = 'http://192.168.0.23:8081'
-const KOMGA_USERNAME = "demo@komga.org"
-const KOMGA_PASSWORD = "komga-demo"
+const KOMGA_DOMAIN = 'http://kiwano.video:8080'
+const KOMGA_USERNAME = "demo@test.something"
+const KOMGA_PASSWORD = "12345"
 
 const KOMGA_API_DOMAIN = KOMGA_DOMAIN + "/api/v1"
 const AUTHENTIFICATION = "Basic " + Buffer.from(KOMGA_USERNAME + ":" + KOMGA_PASSWORD, 'binary').toString('base64')
@@ -46,9 +46,9 @@ export const KomgaInfo: SourceInfo = {
   version: "1.1.1",
   name: "Komga",
   icon: "icon.png",
-  author: "Lemon",
-  authorWebsite: "https://github.com/FramboisePi",
-  description: "Extension that pulls manga from Komga demo server",
+  author: "joey",
+  authorWebsite: "https://github.com/ds009221jb",
+  description: "a waste of time",
   //language: ,
   hentaiSource: false,
   websiteBaseURL: KOMGA_DOMAIN
