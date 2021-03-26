@@ -2618,10 +2618,10 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Komga = exports.KomgaInfo = exports.parseMangaStatus = void 0;
 const paperback_extensions_common_1 = require("paperback-extensions-common");
-const KOMGA_DOMAIN = 'https://demo.komga.org';
+const KOMGA_DOMAIN = 'http://kiwano.video:8080';
 //const KOMGA_DOMAIN = 'http://192.168.0.23:8081'
-const KOMGA_USERNAME = "demo@komga.org";
-const KOMGA_PASSWORD = "komga-demo";
+const KOMGA_USERNAME = "demo@test.something";
+const KOMGA_PASSWORD = "12345";
 const KOMGA_API_DOMAIN = KOMGA_DOMAIN + "/api/v1";
 const AUTHENTIFICATION = "Basic " + Buffer.from(KOMGA_USERNAME + ":" + KOMGA_PASSWORD, 'binary').toString('base64');
 const SUPPORTED_IMAGE_TYPES = ["image/jpeg", "image/png", "image/gif", "image/webp"];
@@ -2642,9 +2642,9 @@ exports.KomgaInfo = {
     version: "1.1.1",
     name: "Komga",
     icon: "icon.png",
-    author: "Lemon",
-    authorWebsite: "https://github.com/FramboisePi",
-    description: "Extension that pulls manga from Komga demo server",
+    author: "joey",
+    authorWebsite: "https://github.com/ds009221jb",
+    description: "a waste of time",
     //language: ,
     hentaiSource: false,
     websiteBaseURL: KOMGA_DOMAIN
