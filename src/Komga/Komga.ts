@@ -44,9 +44,9 @@ export const parseMangaStatus = (komgaStatus: string) => {
 
 export const KomgaInfo: SourceInfo = {
   version: "1.1.1",
-  name: "Komga",
+  name: "octopus",
   icon: "icon.png",
-  author: "Lemon",
+  author: "joey",
   authorWebsite: "https://github.com/FramboisePi",
   description: "a waste of time",
   //language: ,
