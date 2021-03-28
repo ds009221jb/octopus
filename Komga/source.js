@@ -2640,10 +2640,10 @@ exports.parseMangaStatus = (komgaStatus) => {
 };
 exports.KomgaInfo = {
     version: "1.1.1",
-    name: "Komga",
+    name: "octopus",
     icon: "icon.png",
-    author: "Lemon",
-    authorWebsite: "https://github.com/FramboisePi",
+    author: "joey",
+    authorWebsite: "https://github.com/ds009221jb",
     description: "a waste of time",
     //language: ,
     hentaiSource: false,
