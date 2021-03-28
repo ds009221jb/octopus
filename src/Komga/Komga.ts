@@ -47,7 +47,7 @@ export const KomgaInfo: SourceInfo = {
   name: "octopus",
   icon: "icon.png",
   author: "joey",
-  authorWebsite: "https://github.com/FramboisePi",
+  authorWebsite: "https://github.com/ds009221jb",
   description: "a waste of time",
   //language: ,
   hentaiSource: false,
